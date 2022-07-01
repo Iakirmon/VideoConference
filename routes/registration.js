@@ -2,7 +2,7 @@ const express = require("express")
 const validator = require("validator")
 const _ = require('lodash')
 const dayjs = require('dayjs')
-const mysql = require("mysql")
+const mysql = require("mysql2")
 const bcrypt = require("bcrypt-nodejs")
 const connection = require("../db/connection")
 

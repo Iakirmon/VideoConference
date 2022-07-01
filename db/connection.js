@@ -1,10 +1,10 @@
-const mysql = require("mysql")
+const mysql = require("mysql2")
 require("dotenv").config()
 
 var connection = mysql.createConnection({
-    host: process.env.HOSTNAME,
-    user: "admin",
-    password: process.env.PASS,
+    host: "localhost",
+    user: "root",
+    password: "root",
     database: "mydb",
     timezone: "+00:00"
   })

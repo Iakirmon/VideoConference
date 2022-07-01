@@ -44,7 +44,7 @@ app.use(bodyParser.json())
 app.use(
   session({
     name: "Session",
-    secret: process.env.SESSION_SECRET,
+    secret: "ASD",
     resave: false,
     saveUninitialized: false
   })

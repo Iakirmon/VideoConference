@@ -1,6 +1,6 @@
 const express = require("express")
 const connection = require("../db/connection")
-const mysql = require("mysql")
+const mysql = require("mysql2")
 const dayjs = require("dayjs")
 
 const profileRouter = express.Router()
